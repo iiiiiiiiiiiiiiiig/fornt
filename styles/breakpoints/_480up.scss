@@ -1,0 +1,584 @@
+header{
+  height:47px;
+  background:rgba(255,255,255,0.7);
+  & .flex{
+   display: flex; 
+   position: absolute;
+   top:4%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   width:300px;
+
+   & p{
+     padding-left:20px;
+   }
+  }
+}
+
+.font{
+  position: relative;
+
+  & img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+  }
+  & h1{
+    position: absolute;
+    top: 140px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:270px;
+  }
+  & div{
+    position: absolute;
+    top: 290px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:220px;
+  }
+  & p{
+  position:relative;
+  top:120px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:350px;//
+  }
+
+  .flex1{
+    display: flex;
+    flex-wrap: wrap;
+    width:390px;
+    position: absolute;
+    top: 1000px;
+    left:50%;
+    transform: translate(-50%, -50%);
+      
+   & img{
+    padding:5px;
+   }
+  }
+
+  h2{
+    position: absolute;
+    top: 1400px;
+    left:190px;
+    transform: translate(-50%, -50%);
+    width:360px;
+  }
+
+  .flex2{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 1100px;
+    left:120px;
+    transform: translate(-50%, -50%);
+
+    & img{
+     width:200px;
+     height:150px;
+     object-fit: cover;
+     padding-top:5px;
+    }
+  }
+
+  .flex3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 600px;
+    left:355px;
+    transform: translate(-50%, -50%);
+
+    & img{
+      position: relative;
+      top:39px;
+      right:30px;
+      width:140px;
+      height:50px;
+    }
+    & .p{
+     position: relative;    
+     top:93px;
+     left:140px;
+     
+    }
+  }
+}
+
+.tree{ 
+  position: relative;
+
+  & h1{
+    position: absolute;
+    top: 550px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:290px;
+    font-size:28px;
+  }
+  & img{
+    position: absolute;
+    top: 700px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    height:170px;
+    object-fit: cover;
+  }
+  & p{
+   position: absolute;
+   top: 710px;
+   left:50%;
+   transform: translate(-40%, -50%);
+   width:300px;
+  }
+  }
+
+.flex{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .child{
+    & .case{
+     position: relative;
+     top: 870px;
+     left:37%;
+     transform: translate(-50%, -50%);
+     background-color: orange;
+     color:white;
+     width:70%;
+     padding:1px;     
+    }
+    & .plan{
+     position: relative;
+     top: 883px;
+     left:37%;
+     transform: translate(-50%, -50%);
+     background-color:#9999CC;
+     color:white;
+     width:70%;
+    padding:1px;  
+    }
+  }
+   & .img1{
+    position: relative;
+    top: 990px;
+    left:50%;
+    transform: translate(-100%, -50%);
+    width:190px;
+    height:190px;
+ }
+   & .img2{
+    position: relative;
+    top: 790px;
+    left:50%;
+    transform: translate(1%, -50%);
+    width:180px;
+    height:190px;
+ }
+ .boy{
+  position: relative;
+   & .ex{
+    position: absolute;
+    top: 780px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+ }
+ }
+}
+
+.rank{
+  position: relative;
+  & h1{
+   position: absolute;
+   top: 1000px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   font-size: 25px;
+  }
+  & h2{
+    position: absolute;
+    top: 1100px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  .flex1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    & img{
+     position: relative;
+     top: 1200px;
+     left:50%;
+     transform: translate(-100%, -50%);
+     width:180px;
+     margin-left:10px;
+    }
+  }
+
+  & h3{
+    position: absolute;
+    top: 1300px;
+    left:50%;
+    transform: translate(-50%, -50%);
+   }
+
+  .flex2{
+    display: flex;
+    flex-direction: column;
+
+    & h4{
+    position: relative;
+    top: 1300px;
+    left:53%;
+    transform: translate(-50%, -50%);
+    &::first-letter{
+      color:#CC3300;
+    }
+    }
+    & p{
+      position: relative;
+      top: 1300px;
+      left:57%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+    }
+  }
+}
+
+.house{
+  position: relative;
+
+  & h1{
+    position: absolute;
+    top: 1400px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:25px;
+
+  }
+   & p{
+    position: absolute;
+    top: 1550px;
+    left:200px;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width:350px;
+  }
+  .back{
+    position: relative;
+    top:1700px;
+    background-color:#FFFFE0 ;
+    width:100%;
+    height:250px;
+    & .logo{
+     position: relative;
+     top: 30px;
+     left:50%;
+     transform: translate(-50%, -50%);
+     width: 60%;
+    }
+    & .div{
+     position: relative;
+     top: 110px;
+     left:50%;
+     transform: translate(-50%, -50%);
+   }
+  }
+  & h2{
+   position: absolute;
+   top: 2000px;
+   left:200px;
+   transform: translate(-50%, -50%);
+   font-size: 16px;
+   width:240px;
+  }
+ul{
+  list-style:none;
+   & li{
+    position: relative;
+    top: 1830px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    // font-size: 0px;
+   }
+  }
+  
+
+}
+
+.op{
+  position: relative;
+  
+  & h1{
+  position: absolute;
+  top: 1850px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  width:350px;
+ }
+  & .case{
+   position: absolute;
+   top: 1930px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   font-size: 23px;
+  }
+ .flex{
+  position: relative;
+  top:2000px;
+  left:1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:400px;
+  
+  & .img{
+    width:190px;
+  }
+ }
+}
+
+.build{
+  position: relative;
+
+  & h1{
+  position: absolute;
+  top: 2050px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  width:300px;
+  }
+  & h2{
+    position: absolute;
+    top: 2150px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:25px;
+  }
+  & p{
+    position: relative;
+    top: 2330px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:13px;
+  }
+  & .logo{
+    position: absolute;
+    top: 2490px;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  & .fon{
+    position: absolute;
+    top: 2620px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #eb6100;
+    width:90%;
+    text-align: center;
+    padding:12px;
+    font-size:15px;
+  }
+  & h3{
+    position: absolute;
+    top: 2700px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+    width:300px;
+
+    & > span{
+      font-size: 15px;
+    }
+  }
+  & btn{
+    position: absolute;
+    top: 2780px;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+   font-size: 18px;
+   display: inline-block;
+   padding: 0.5em 1em 0.3em;
+   color: black;
+   border: solid 2px black;
+   background-color: #ffffff;
+   cursor: pointer;
+   width:90%;
+   text-align: center;
+  }
+}
+
+.list{
+ position: relative;
+
+ & p{
+  position: absolute;
+  top: 2700px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:290px;
+ }
+ .flex{
+   position: relative;
+   top:2750px;
+   display: flex;
+   flex-direction: column;
+   margin:30px;
+ }
+ & .cam{
+  position: relative;
+  top: 2910px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size:15px;
+ }
+ & .aa{
+ position: relative;
+ top:2780px;
+ left:30%;
+ transform: translate(-20%, -50%);
+ width:340px;
+ font-size:18px;
+}
+
+ & .fon{
+  position: relative;
+  top: 2800px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: #eb6100;
+  width:90%;
+  text-align: center;
+  padding:12px;
+  font-size:15px;
+}
+ & .h3{
+  position: relative;
+  top: 2840px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  width:300px;
+
+  & > span{
+    font-size: 15px;
+  }
+}
+ & btn{
+  position: relative;
+  top: 2870px;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+ font-size: 18px;
+ display: inline-block;
+ padding: 0.5em 1em 0.3em;
+ color: black;
+ border: solid 2px black;
+ background-color: #ffffff;
+ cursor: pointer;
+ width:90%;
+ text-align: center;
+}
+
+}
+
+.live{
+  position: relative;
+ & h1{
+  position: absolute;
+  top: 2970px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:300px;
+ }
+ & p{
+  position: relative;
+  top: 3050px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:300px;
+ }
+ & .house{
+  position: relative;
+  top: 3090px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  min-width: 20%;
+ }
+ & .font{
+ position: absolute;
+ top: 3470px;
+ left:50%;
+ transform: translate(-50%, -50%);
+ width:600px;
+ font-size:12px;
+ width:350px;
+ }
+
+ & .fon{
+  position: relative;
+  top: 3360px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: #eb6100;
+  width:90%;
+  text-align: center;
+  padding:12px;
+}
+ & .h3{
+  position: relative;
+  top: 3380px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  width:300px;
+
+  & > span{
+    font-size: 15px;
+  }
+}
+ & btn{
+  position: relative;
+  top: 3400px;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+ font-size: 18px;
+ display: inline-block;
+ padding: 0.5em 1em 0.3em;
+ color: black;
+ border: solid 2px black;
+ background-color: #ffffff;
+ cursor: pointer;
+ width:90%;
+ text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+// position: absolute;
+// top: 50%;
+// left:50%;
+// transform: translate(-50%, -50%);
+
